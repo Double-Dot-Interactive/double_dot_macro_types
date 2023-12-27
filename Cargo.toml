@@ -1,0 +1,18 @@
+[package]
+name = "double_dot_macro_types"
+version = "0.1.0"
+edition = "2021"
+authors = ["doubledotinteractive@gmail.com"]
+description = "Misc types and functions required for the double_dot_macro ecosystem"
+license = "MIT OR Apache-2.0"
+keywords = ["gamedev", "bevy"]
+homepage = "https://github.com/Double-Dot-Interactive/double_dot_macro_types"
+repository = "https://github.com/Double-Dot-Interactive/double_dot_macro_types.git"
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+proc-macro2 = "1.0.71"
+quote = "1.0.33"
+syn = "2.0.43"
